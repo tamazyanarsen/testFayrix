@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    overflow: auto;
+    max-height: 100vh;
+    padding: 0 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columns{
+    display: grid;
+}
+
+.table-col {
+    padding-right: 1rem;
+    box-sizing: border-box;
+    border-right: cornflowerblue solid 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+html, body {
+    overflow: hidden;
+}
