@@ -32,10 +32,6 @@ export class AppComponent implements OnInit {
         // this.data данные обновленые, можем их сохранить
     }
 
-    trackByRow(value) {
-        return (Math.random() * 1000).toString();
-    }
-
     ngOnInit(): void {
         this.getData();
     }

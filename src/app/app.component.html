@@ -6,7 +6,7 @@
              class="table-col">{{col}}
         </div>
     </div>
-    <ng-container *ngFor="let row of data; trackBy: trackByRow">
+    <ng-container *ngFor="let row of data">
         <div class="columns"
              [ngStyle]="{'grid-template-columns': 'repeat(' + columns.length + ', 150px)'}">
             <ng-container *ngFor="let col of columns">
